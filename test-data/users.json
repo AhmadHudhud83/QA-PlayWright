@@ -1,0 +1,13 @@
+[
+  {
+    "username": "standard_user",
+    "description": "valid user",
+    "shouldPass": true
+  },
+  {
+    "username": "locked_out_user",
+    "description": "locked user",
+    "shouldPass": false,
+    "expectedError": "Epic sadface: Sorry, this user has been locked out."
+  }
+]
